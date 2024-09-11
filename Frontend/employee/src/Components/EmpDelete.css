@@ -1,0 +1,98 @@
+.empdelete {
+    background-color: bisque;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.empdelete h3 {
+    font-size: 2.5rem; /* Use rem for better scaling */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    color: rgb(161, 107, 41);
+    text-align: center;
+}
+
+.empdelete .form {
+    width: 100%;
+    max-width: 600px; /* Set a max-width for responsiveness */
+    margin: 20px auto; /* Auto margin for centering */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form button {
+    background-color: rgb(129, 96, 46);
+    font-size: 1.25rem; /* Use rem for better scaling */
+    padding: 10px 20px;
+}
+
+.details {
+    width: 100%;
+    max-width: 500px; /* Set a max-width for responsiveness */
+    background-color: antiquewhite;
+    border-radius: 10%;
+    padding: 20px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.details h4 {
+    font-size: 2rem;
+    font-weight: 250;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(153, 107, 50);
+}
+
+.details p {
+    font-size: 1.25rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(180, 146, 51);
+}
+
+@media (max-width: 768px) {
+    .empdelete h3 {
+        font-size: 2rem;
+    }
+
+    .details h4 {
+        font-size: 1.75rem;
+    }
+
+    .details p {
+        font-size: 1rem;
+    }
+
+    .form button {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .empdelete h3 {
+        font-size: 1.75rem;
+    }
+
+    .details {
+        width: 90%; /* Allow more flexibility on small screens */
+    }
+
+    .details h4 {
+        font-size: 1.5rem;
+    }
+
+    .details p {
+        font-size: 0.875rem;
+    }
+
+    .form button {
+        font-size: 0.875rem;
+    }
+}

@@ -1,0 +1,74 @@
+.emptable {
+    width: 100%;
+    height: auto;
+    background-color: rgb(220, 226, 243);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.emptable h1 {
+    font-weight: 400;
+    font-size: 3rem; 
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(129, 129, 228);
+    text-align: center;
+}
+
+.emptable button {
+    font-size: 1.25rem;
+    background-color: rgb(104, 156, 184);
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+
+.emptable table {
+    width: 100%; 
+    align-content: center;
+    text-align: center;
+    margin: 0 auto 50px auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem; 
+    text-decoration: none;
+}
+
+.emptable table th, .emptable table td {
+    padding: 10px;
+    word-wrap: break-word; 
+}
+
+.emptable table th {
+    background-color: #f8f9fa; 
+}
+
+@media (max-width: 768px) {
+    .emptable table {
+        font-size: 1.25rem; 
+    }
+
+    .emptable h1 {
+        font-size: 2.5rem;
+    }
+
+    .emptable button {
+        font-size: 1.125rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .emptable table th, .emptable table td {
+        padding: 5px;
+    }
+
+    .emptable h1 {
+        font-size: 2rem;
+    }
+
+    .emptable button {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .emptable table {
+        font-size: 1rem; 
+    }
+}
